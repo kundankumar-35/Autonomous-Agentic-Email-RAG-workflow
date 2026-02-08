@@ -14,7 +14,7 @@ def analyzer(state: AgentState):
     body = state['raw_email']
     
 
-   # (Assuming you just fetched messages from Gmail)
+   
     msg_id = state.get("message_id") 
 
     # 2. Database Guard: Check if specific message_id was already handled
